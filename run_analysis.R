@@ -70,7 +70,7 @@ my_data <- select (my_data, -contains("Freq"))					# dim(my_data) 10299    75
 
 # Arrange it by "Subject" and then "Activity". Replace activity numbers by descriptive activity labels
 # Convert mydata data frame into a data table. ***Needs data.table package.***
-
+library(tidyr)
 library(data.table)
 mydata <- my_data
 setDT(mydata)

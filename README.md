@@ -35,7 +35,7 @@ subject, activity, av-m1, av-m2, av-m3, .........av-mn where n is the number of 
 
 For each subject there will be 6 of these, one per activity and for all 30 subjects there will be a total of 180. If for example we chose 40 columns (in Step 2)  table would be 180 x 42 (includes subject and activity columns). We can then convert it into a tidy table in the desired format.
 
-The file created for submission is named "pradymtbl.txt" and is created in the same directory where the run_analysis.R is run from.
+The file created for submission is named "pradymtbl.txt" and is created in the same directory where the run_analysis.R is run from. This file can be read using read.table() with header=TRUE flag. It can also be previewed in Notepad or other text editors.
 
 NOTES:
 
