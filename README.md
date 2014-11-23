@@ -42,4 +42,55 @@ NOTES:
 (1) The approach above isn't meant to describe the code in "run_analysis.R", the comments in the code describe that more accurately.
 (2) I don't undersatnd the "science" here so have hard time assessing the usefulness and meaningfulness of data produced, 
  
+For each record in Human Activity Recognition Using Smartphones Dataset Version 1.0 it is provided:
+==============================================================
+
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+The Human Activity Recognition Using Smartphones Dataset Version 1.0 dataset includes the following files:
+=================================================================
+
+- 'README.txt'
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'features.txt': List of all features. (Not readable via Notepad, use read.table() or Notepad++ to preview)
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+
+The following files are available for the train and test data. Their descriptions are equivalent. 
+
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+===============================================================
+Following files are added to this data set to capture informatiuon about the Course Project
+================================================================
+
+- README.md : this file
+- codebook.md : a file describing all the variables in original data set and those added for this project
+- run_analysis.R : an R executable file that produces the desired tidy data table and saves it in 
+
+===============================================================
+For the run-analysis.R to work properly following must be established
+===============================================================
+
+The original dataset (Human Activity Recognition Using Smartphones Dataset Version 1.0) must be available in the directory "UCI HAR Dataset" under the current working directory.
+
+Following packages have been installed and loaded before the program is executed - dplyr, plyr, data.set, reshape2
+
+The working directory has following files: run_analysis.R
+
+This was tested on a Window 8.1 (64 bit) machine runnign R version 3.1.1
+
+	R version 3.1.1 (2014-07-10) -- "Sock it to Me"
+	Copyright (C) 2014 The R Foundation for Statistical Computing
+	Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+
 
